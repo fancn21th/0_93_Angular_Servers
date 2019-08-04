@@ -1,6 +1,7 @@
-<p
+<div
+  class="alert"
   [ngStyle]="{ 'background-color': getColor() }"
   [ngClass]="{ online: serverStatus === 'online' }"
 >
   server with ID {{ serverId }} is {{ getServerStatus() }}
-</p>
+</div>
